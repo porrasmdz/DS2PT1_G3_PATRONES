@@ -25,11 +25,12 @@ public final class ReportManager {
         this.reporte = fabrica.createReport();
     }
    
-    public static ReportManager getInstance() {
+    public static ReportManager getInstance(ReportFactory fabrica) {
         if (instance == null) {
             //Fabrica por defecto es fabrica de pdfs
-            instance = new ReportManager(new PDFReportFactory());
+            instance = new ReportManager(fabrica);
         }
+        instance.setFabrica(fabrica);
         return instance;
     }
     
