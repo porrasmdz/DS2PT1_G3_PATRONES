@@ -1,0 +1,10 @@
+com\mycompany\tallerpatrones\reportes\PDFReport.class
+com\mycompany\tallerpatrones\fabricas\PDFReportFactory.class
+com\mycompany\tallerpatrones\fabricas\WordReportFactory.class
+com\mycompany\tallerpatrones\reportes\WordReport.class
+com\mycompany\tallerpatrones\fabricas\ReportFactory.class
+com\mycompany\tallerpatrones\Tallerpatrones.class
+com\mycompany\tallerpatrones\reportes\Report.class
+com\mycompany\tallerpatrones\fabricas\ExcelReportFactory.class
+com\mycompany\tallerpatrones\app\ReportManager.class
+com\mycompany\tallerpatrones\reportes\ExcelReport.class
