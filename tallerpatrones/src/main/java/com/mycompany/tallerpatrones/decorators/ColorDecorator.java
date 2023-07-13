@@ -1,5 +1,7 @@
 package com.mycompany.tallerpatrones.decorators;
 
+import com.mycompany.tallerpatrones.reportes.Report;
+
 public class ColorDecorator extends ReportDecorator {
     public ColorDecorator(Report decoratedReport) {
         super(decoratedReport);
